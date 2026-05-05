@@ -66,17 +66,23 @@ Os resultados reforçam como a análise exploratória de dados pode revelar rela
 
 ## 🚀 Como executar o projeto
 
-### 1. Clone o repositório
+1. Clone o repositório:
+
 ```bash
 git clone https://github.com/SilHFQ/titanic-eda-python.git
 ```
 
-### 2. Instale as dependências
+2. Instale as dependências:
+
 ```bash
 pip install pandas numpy matplotlib
 ```
 
-### 3. Execute o notebook
+3. Execute o notebook:
+
 ```bash
 jupyter notebook
 ```
+
+
+
