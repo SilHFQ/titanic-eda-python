@@ -1,39 +1,78 @@
-# 📊 Análise Exploratória de Dados – Titanic
+# 📊 Análise Exploratória de Dados — Titanic
 
 ## 🎯 Objetivo
-Analisar os fatores que influenciaram a sobrevivência dos passageiros do Titanic utilizando técnicas de análise de dados.
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para identificar padrões e fatores que influenciaram a sobrevivência dos passageiros do Titanic.
+
+A análise busca extrair insights relevantes a partir dos dados, considerando variáveis como gênero, idade e classe social.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
+- Python
+- Pandas
+- NumPy
+- Matplotlib
 
 ---
 
-## 🔍 Etapas do projeto
-- Importação e exploração do dataset  
-- Tratamento de dados faltantes (mediana e moda)  
-- Limpeza e padronização de variáveis  
-- Análise exploratória dos dados (EDA)  
-- Criação de visualizações para apoio à análise  
+## 📂 Etapas do projeto
+
+### 🔹 1. Coleta e carregamento de dados
+Leitura do dataset utilizando Pandas e criação do DataFrame para análise.
+
+### 🔹 2. Tratamento de dados
+- Identificação de valores ausentes
+- Preenchimento de dados:
+  - Idade → mediana
+  - Cabine → moda
+- Remoção de registros com dados irrelevantes (Embarked)
+
+### 🔹 3. Limpeza e transformação
+- Remoção de colunas não relevantes para análise
+- Padronização e renomeação de variáveis
+- Conversão de valores categóricos para melhor interpretação
+
+### 🔹 4. Análise exploratória
+- Distribuição de sobreviventes vs não sobreviventes
+- Análise por gênero
+- Análise por classe social
+- Avaliação de idade e sua relação com sobrevivência
+
+### 🔹 5. Visualização de dados
+Criação de gráficos para facilitar a interpretação dos padrões identificados.
 
 ---
 
-## 📈 Principais insights
-- Mulheres apresentaram maior taxa de sobrevivência (~68%)  
+## 📊 Principais insights
+
+- Mulheres apresentaram maior taxa de sobrevivência em relação aos homens  
 - Passageiros da 1ª classe tiveram maior probabilidade de sobrevivência  
-- Classe social e sexo foram fatores determinantes na sobrevivência  
+- Idade influenciou parcialmente as chances de sobrevivência  
+- Fatores sociais e estruturais tiveram impacto direto no desfecho dos passageiros  
 
 ---
 
-## 📁 Estrutura do projeto
-- `Silvia_Queiroz_226333.ipynb`: Notebook com toda a análise de dados  
+## 📈 Conclusão
+
+A análise evidencia que fatores como gênero e classe social tiveram forte influência nas chances de sobrevivência, indicando que critérios de priorização e condições estruturais impactaram diretamente o desfecho da tragédia.
+
+Este projeto reforça a importância da análise exploratória como etapa fundamental para compreensão de padrões em dados e apoio à tomada de decisão.
 
 ---
 
-## 💡 Sobre
-Projeto desenvolvido como parte dos estudos em Ciência de Dados, com foco em análise exploratória e interpretação de dados.
+## 🚀 Como executar o projeto
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/SilHFQ/titanic-eda-python.git
+```
+
+### 2. Instale as dependências
+```bash
+pip install pandas numpy matplotlib
+```
+
+### 3. Execute o notebook
+```bash
+jupyter notebook
+```
