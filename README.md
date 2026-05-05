@@ -1,4 +1,4 @@
-# 📊 Análise Exploratória de Dados — Titanic
+# 📊 Análise Exploratória de Dados (EDA) — Titanic Dataset
 
 ## 🎯 Objetivo
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para Identificar padrões e fatores que influenciaram a sobrevivência dos passageiros, utilizando análise exploratória de dados para apoiar interpretações baseadas em evidências.
@@ -7,11 +7,15 @@ A análise busca extrair insights relevantes a partir dos dados, considerando va
 
 ---
 
+Dataset amplamente utilizado em estudos de ciência de dados e aprendizado estatístico.
+
+---
+
 ## 🛠️ Tecnologias utilizadas
-- Python
-- Pandas
-- NumPy
-- Matplotlib
+- Python (análise de dados)
+- Pandas (manipulação de dados)
+- NumPy (operações numéricas)
+- Matplotlib (visualização de dados)
 
 ---
 
