@@ -1,7 +1,7 @@
 # 📊 Análise Exploratória de Dados — Titanic
 
 ## 🎯 Objetivo
-Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para identificar padrões e fatores que influenciaram a sobrevivência dos passageiros do Titanic.
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para Identificar padrões e fatores que influenciaram a sobrevivência dos passageiros, utilizando análise exploratória de dados para apoiar interpretações baseadas em evidências.
 
 A análise busca extrair insights relevantes a partir dos dados, considerando variáveis como gênero, idade e classe social.
 
@@ -45,18 +45,18 @@ Criação de gráficos para facilitar a interpretação dos padrões identificad
 
 ## 📊 Principais insights
 
-- Mulheres apresentaram maior taxa de sobrevivência em relação aos homens  
-- Passageiros da 1ª classe tiveram maior probabilidade de sobrevivência  
-- Idade influenciou parcialmente as chances de sobrevivência  
-- Fatores sociais e estruturais tiveram impacto direto no desfecho dos passageiros  
+- Mulheres apresentaram uma taxa de sobrevivência significativamente superior aos homens, indicando priorização no resgate
+- Passageiros da 1ª classe tiveram maior probabilidade de sobrevivência, sugerindo influência de fatores socioeconômicos
+- Passageiros mais jovens apresentaram maior taxa de sobrevivência em comparação com faixas etárias mais elevadas
+- A combinação entre classe social e gênero mostrou forte impacto nas chances de sobrevivência
 
 ---
 
 ## 📈 Conclusão
 
-A análise evidencia que fatores como gênero e classe social tiveram forte influência nas chances de sobrevivência, indicando que critérios de priorização e condições estruturais impactaram diretamente o desfecho da tragédia.
+A análise evidencia que fatores como gênero e classe social tiveram forte influência nas chances de sobrevivência, refletindo padrões sociais e estruturais da época.
 
-Este projeto reforça a importância da análise exploratória como etapa fundamental para compreensão de padrões em dados e apoio à tomada de decisão.
+Os resultados reforçam como a análise exploratória de dados pode revelar relações relevantes entre variáveis e apoiar a compreensão de eventos complexos, mesmo em cenários históricos.
 
 ---
 
