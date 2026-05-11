@@ -4,7 +4,7 @@
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para identificar padrões e fatores que influenciaram a sobrevivência dos passageiros.
 
-A análise busca extrair insights relevantes a partir dos dados, considerando variáveis como gênero, idade e classe social.
+A análise busca extrair insights relevantes a partir dos dados, considerando variáveis como sexo, idade e classe social.
 
 Dataset amplamente utilizado em estudos de ciência de dados e aprendizado estatístico.
 
@@ -32,7 +32,7 @@ Leitura do dataset utilizando Pandas e criação do DataFrame para análise.
 
   * Idade → mediana
   * Cabine → moda
-* Remoção de registros com dados irrelevantes (Embarked)
+* Remoção de registros com valores ausentes em Embarked
 
 ### 🔹 3. Limpeza e transformação
 
@@ -43,7 +43,7 @@ Leitura do dataset utilizando Pandas e criação do DataFrame para análise.
 ### 🔹 4. Análise exploratória
 
 * Distribuição de sobreviventes vs não sobreviventes
-* Análise por gênero
+* Análise por sexo
 * Análise por classe social
 * Avaliação de idade e sua relação com sobrevivência
 
@@ -58,13 +58,13 @@ Criação de gráficos para facilitar a interpretação dos padrões identificad
 * Mulheres apresentaram uma taxa de sobrevivência significativamente superior aos homens
 * Passageiros da 1ª classe tiveram maior probabilidade de sobrevivência
 * Passageiros mais jovens apresentaram maior taxa de sobrevivência
-* A combinação entre classe social e gênero mostrou forte impacto nas chances de sobrevivência
+* A combinação entre classe social, faixa etária e sexo mostrou forte impacto nas chances de sobrevivência
 
 ---
 
 ## 📈 Conclusão
 
-A análise evidencia que fatores como gênero e classe social tiveram forte influência nas chances de sobrevivência, refletindo padrões sociais e estruturais da época.
+A análise evidencia que fatores como sexo, faixa etária e classe social tiveram forte influência nas chances de sobrevivência, refletindo padrões sociais e estruturais da época.
 
 Os resultados reforçam como a análise exploratória de dados pode revelar relações relevantes entre variáveis e apoiar a compreensão de eventos complexos.
 
