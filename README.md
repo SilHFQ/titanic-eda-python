@@ -87,5 +87,5 @@ pip install pandas numpy matplotlib
 3. Execute o notebook:
 
 ```bash
-jupyter notebook
+Abra o arquivo `.ipynb` utilizando Google Colab ou Jupyter Notebook
 ```
