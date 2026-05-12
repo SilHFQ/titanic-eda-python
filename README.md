@@ -2,20 +2,19 @@
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) para identificar padrões e fatores que influenciaram a sobrevivência dos passageiros.
+Este projeto tem como objetivo realizar uma Análise Exploratória de Dados (EDA) utilizando Python, com foco na identificação de padrões e fatores que influenciaram a sobrevivência dos passageiros do Titanic.
 
-A análise busca extrair insights relevantes a partir dos dados, considerando variáveis como sexo, idade e classe social.
-
-Dataset amplamente utilizado em estudos de ciência de dados e aprendizado estatístico.
+A análise considera variáveis como sexo, idade e classe social, buscando gerar insights a partir dos dados.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-* Python (análise de dados)
-* Pandas (manipulação de dados)
-* NumPy (operações numéricas)
-* Matplotlib (visualização de dados)
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
 ---
 
@@ -23,7 +22,7 @@ Dataset amplamente utilizado em estudos de ciência de dados e aprendizado estat
 
 ### 🔹 1. Coleta e carregamento de dados
 
-Leitura do dataset utilizando Pandas e criação do DataFrame para análise.
+Leitura do dataset e criação do DataFrame utilizando Pandas.
 
 ### 🔹 2. Tratamento de dados
 
@@ -32,60 +31,63 @@ Leitura do dataset utilizando Pandas e criação do DataFrame para análise.
 
   * Idade → mediana
   * Cabine → moda
-* Remoção de registros com valores ausentes em Embarked
+* Remoção de registros com valores ausentes em `Embarked`
 
 ### 🔹 3. Limpeza e transformação
 
-* Remoção de colunas não relevantes para análise
-* Padronização e renomeação de variáveis
-* Conversão de valores categóricos para melhor interpretação
+* Remoção de colunas não relevantes
+* Padronização de variáveis
+* Ajuste de dados categóricos para análise
 
 ### 🔹 4. Análise exploratória
 
-* Distribuição de sobreviventes vs não sobreviventes
+* Sobreviventes vs não sobreviventes
 * Análise por sexo
 * Análise por classe social
-* Avaliação de idade e sua relação com sobrevivência
+* Relação entre idade e sobrevivência
 
 ### 🔹 5. Visualização de dados
 
-Criação de gráficos para facilitar a interpretação dos padrões identificados.
+Criação de gráficos para apoiar a interpretação dos padrões identificados.
 
 ---
 
 ## 📊 Principais insights
 
-* Mulheres apresentaram uma taxa de sobrevivência significativamente superior aos homens
-* Passageiros da 1ª classe tiveram maior probabilidade de sobrevivência
-* Passageiros mais jovens apresentaram maior taxa de sobrevivência
-* A combinação entre classe social, faixa etária e sexo mostrou forte impacto nas chances de sobrevivência
+* Mulheres apresentaram maior taxa de sobrevivência em relação aos homens
+* Passageiros da 1ª classe tiveram maiores chances de sobrevivência
+* Passageiros mais jovens apresentaram tendência de maior sobrevivência
+* Classe social e sexo demonstraram forte influência nos resultados
 
 ---
 
 ## 📈 Conclusão
 
-A análise evidencia que fatores como sexo, faixa etária e classe social tiveram forte influência nas chances de sobrevivência, refletindo padrões sociais e estruturais da época.
+A análise demonstrou como fatores sociais e demográficos impactaram diretamente as chances de sobrevivência dos passageiros.
 
-Os resultados reforçam como a análise exploratória de dados pode revelar relações relevantes entre variáveis e apoiar a compreensão de eventos complexos.
+O projeto reforça a importância da análise exploratória na identificação de padrões e geração de insights relevantes para apoio à tomada de decisão baseada em dados.
 
 ---
 
 ## 🚀 Como executar o projeto
 
-1. Clone o repositório:
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/SilHFQ/titanic-eda-python.git
 ```
 
-2. Instale as dependências:
+### 2. Instale as dependências
 
 ```bash
 pip install pandas numpy matplotlib
 ```
 
-3. Execute o notebook:
+### 3. Execute o notebook
 
-```bash
-Abra o arquivo `.ipynb` utilizando Google Colab ou Jupyter Notebook
-```
+Abra o arquivo `.ipynb` utilizando:
+
+* Jupyter Notebook
+* Google Colab
+
+---
